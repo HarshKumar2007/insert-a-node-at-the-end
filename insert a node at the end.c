@@ -14,7 +14,6 @@ int main() {
 	printf("Enter number of nodes: ");
 	scanf("%d", &n);
 
-	// Create the linked list
 	for (i = 0; i < n; i++) {
 		newNode = (struct Node *)malloc(sizeof(struct Node));
 
@@ -36,7 +35,6 @@ int main() {
 		}
 	}
 
-	// Display the linked list
 	printf("\nLinked List: ");
 
 	temp = head;
